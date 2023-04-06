@@ -1,0 +1,150 @@
+
+Chatbot
+
+	1,2	3
+Un 	chatbot	 	aussi 	nommé 	dialogueur 	ou 	agent
+                 2,4 conversationnel	, est un agent logiciel qui dialogue avec un utilisateur.
+La recherche sur cette interface personne-machine est influencée par la compétition sur le test de Turing (1950) : donner l'illusion qu'un programme pense par un dialogue sensé. Un utilisateur est invité à formuler sa demande en langage naturel, elle est affinée par un échange convivial, dont le logiciel interprète une requête opérationnelle pour son système d'information. Les chatbots débordent donc la recherche ou le divertissement, ils mettent en œuvre des connaissances linguistiques, psychologiques, et bien sûr des bases de programmation.
+Méthode
+Exemple de dialogueur.
+Un chatbot est un programme qui tente de converser avec une personne durant quelques minutes ou plus en lui donnant
+l'impression de converser elle-même avec une personne. Une bonne compréhension de la conversation serait utile pour tenir un dialogue sensé, mais la plupart des chatbots ne s'y essayent pas. Ils repèrent surtout quelques mots dits déclencheurs, voire des expressions de leur interlocuteur, pour retrouver des réponses dont le schéma est programmé et qui peuvent mener la conversation plus loin d'une manière plus ou moins intelligente, mais sans nécessiter de comprendre de quoi ils parlent.
+Par exemple dans le cas d'ELIZA, la présence du mot " père " (ou " mère ") dans une phrase du sujet était associée à une réponse : " Pouvez-vous me parler un peu de vos relations avec votre père (mère) ? ". Des indicateurs sont en général positionnés pour que le même type de réponse ne soit pas utilisé plus d'une fois. Cette méthode des " mots-clés " a comme défaut majeur d'exiger une base de données importante pour
+                                5 donner des résultats satisfaisants , bien qu'ELIZA ait tenu en 5 pages de SNOBOL. En effet, les mots-clés que de tels chatbots reconnaissent sont souvent des sous-expressions couramment utilisées tel que " j'aime... " ou " je déteste... ", qui sont utilisées par le programme pour faire écho au propos de l'utilisateur (" Depuis quand aimez-vous... ? ", " Quelqu'un d'autre dans votre famille aimait-il... ? "). Cette méthode ne fonctionne que peu de temps (typiquement deux ou trois réponses, rarement plus de dix), avant que le discours de la machine soit perçu comme artificiel. Pour combler cela, les concepteurs de chatbots rajoutent souvent des expressions complètes (telles que " j'aime le chocolat "), et cela a tendance à rapidement augmenter la taille de la base de données. Généralement, une base de données satisfaisante contient de 5 000 à 10 000 entrées.
+Cependant la méthode ci-dessus ne peut pas se prêter aisément au stockage de données, et c'est une des raisons pour lesquelles beaucoup de chatbots l'utilisant ne peuvent stocker d'informations sur l'utilisateur avec lequel ils communiquent. Certains programmes cependant essaient d'utiliser de meilleures méthodes de communication. Une méthode permettant l'apprentissage est d'utiliser un système fondé à la fois sur la méthode de reconnaissance des mots-clés décrite ci-dessus et sur un système de reconnaissance des mots et d'analyse linguistique. De tels systèmes lancent généralement l'analyse linguistique sur la phrase entrée par l'utilisateur pour tenter d'en extraire des informations leur permettant de répondre de façon exacte selon des informations stockées en base de données (base de connaissances). Si le processus échoue, ces programmes utilisent la méthode " mots-clés ", en utilisant une base de données classique. Cette dernière méthode n'améliore certes pas la taille de la base de données, mais elle permet au chatbot de traiter de nouveaux cas de langue. Par exemple, avec la méthode des mots-clés si la base de données contient une entrée " WHO IS THAT " et que l'utilisateur entre " WHOS THAT ", le robot a toutes les chances de ne pas répondre juste, tandis qu'avec une analyse de l'entrée utilisateur, il est susceptible de répondre à la question.
+Le fait que les chatbots ne comprennent pas l'information qu'ils traitent est d'ailleurs la raison pour laquelle on classe généralement les chatbots dans le type de l'IA faible. L'IA faible est une IA qui cherche à imiter le comportement humain (la conversation notamment), le langage naturel, mais sans chercher à comprendre le sens de l'information qu'elle traite. C'est la différence majeure avec l'IA forte, qui, elle, vise à simuler une véritable compréhension de l'information. La frontière entre les deux est floue, par exemple avec des applications comme SIRI.
+Historique
+
+Les premiers chatbots ont été ELIZA, PARRY (en), et SHRDLU.
+6
+ELIZA fut créé en 1966 . Elle avait été créée par Joseph Weizenbaum, du Massachusetts Institute of Technology (MIT), et ne prenait que 3 pages en langage SNOBOL. Elle faisait grand usage de la technique de l'écholalie :
+ elle commençait par poser une question neutre (Bonjour. Pourquoi venez-vous me voir ?) à la personne testée, puis analysait à chaque fois la réponse pour tenter de reposer une question en relation avec celle-ci ; si une question lui était posée, elle demandait pourquoi on lui posait la question ; si une phrase contenait le mot computer, elle demandait : Dites-vous cela parce que je suis une machine ? ; etc.
+Des concours de chatbots sont organisés chaque année pour promouvoir l'émulation dans ce domaine. Actuellement, on assiste à la naissance de nombreux chatbots, en partie grâce au Prix Loebner, qui essaye d'être une sorte de test de Turing. Lors de ces concours, afin d'évaluer les chatbots, le jury peut dialoguer soit avec un humain soit avec un chatbot à travers une interface clavier/écran. Au bout d'un certain temps, le jury doit évaluer si le candidat testé est une machine ou pas.
+Les chatbots les plus audacieux sont ceux qui tentent d'extraire des connaissances de leurs conversations
+                                    7 comme ECTOR (en anglais, learning bots), mais ce sont aussi ceux dont les résultats sont actuellement les moins impressionnants.
+Au début du XXIe siècle, c'est certainement le programme ALICE qui est le plus évolué dans le domaine. À noter début 2016, l'incident de chatbot de Microsoft, surnommé Tay, qui a appris des propos racistes et
+                                    8 insultant auprès de ses utilisateurs sur Twitter .
+Les premiers chatbots ont été développés pour effectuer des processus de notifications améliorées. Toutefois, par la suite, les nouveaux chatbots déployés répondent à des demandes plus complexes comme
+                                    9 le conseil financier, l'épargne ou la planification de réunions .
+Applications commerciales
+
+Depuis quelques années, les chatbots fleurissent sur internet et les sociétés qui en profitent sont maintenant
+                                                                                                        10 légion. Le soutien client et le télémarketing sont les cibles privilégiées de ces nouveaux venus du web . En février 2017, les chatbots ne se limitent plus à des questions de base, mais intègrent désormais des algorithmes plus évolués permettant une gestion des échanges d'un niveau de complexité plus élevé 11,12 qu'auparavant
+Cependant, il faut noter que ces agents-là ne veulent pas leurrer les utilisateurs, ils sont spécialisés dans un sujet particulier (vente d'un produit particulier, support client d'une entreprise particulière) et se contentent de recentrer la conversation dès que celle-ci s'en éloigne. Ils sont néanmoins dotés, dans la plupart des cas, d'un protocole social qui les rend plus " humains ". Il est important de distinguer deux types de chatbots :
+les bots simples, construits à partir d'éléments graphiques comme les boutons ou les carrousels ; les bots intelligents, intégrant une technologie de compréhension du langage naturel (NLP) construit sur des cadres logiciels complexes.
+Depuis l'arrivée des chatbots sur Facebook Messenger en 2016, les annonceurs cherchent à créer des expériences conversationnelles visant à capter leurs utilisateurs, clients ou clients potentiels différemment. Dans cette démarche, le temps a mis en valeur quelques écueils à éviter dans la conception de l'expérience utilisateur (UX conversationnel). Cette composante de l'expérience conversationnelle est souvent négligée. Ce problème freine la prolifération et la démocratisation des bots de marques dans l'écosystème numérique européen.
+Dans le secteur de la musique Universal Music et Digitick ont développé des chatbots sur Facebook Messenger pour assurer un service d'information et de vente de billets pour les concerts et autres 13 événements culturels	. Dans le secteur des transports, en France, la RATP a développé en décembre 2017 un chatbot permettant de
+                                                                14,15 guider les passagers au fur et à mesure de leurs besoins de trajets	.
+L'agent conversationnel est censé fournir des réponses rapides, pertinentes et personnalisées aux clients; il a l'avantage d'offrir un service accessible 24 heures sur 24, 7 jours sur 7. Le robot pouvant traiter les requêtes
+                                                                                           16 simples, les agents humains sont plus disponibles pour traiter les situations complexes . Cependant, comme toute technologie suffisamment aboutie pour opérer des transformations dans les modes de production, les chatbots pourraient poser un certain nombre de questions portant sur la place de l'humain dans l'entreprise.
+En mars 2016, en France, le Crédit Mutuel CIC a sollicité ses salariés pour alimenter le robot conversationnel d'IBM (Watson). Cette décision a suscité une levée de boucliers de la part des syndicats,
+                                                                              17,18 s'inquiétant des conséquences à moyen et long terme sur l'emploi en général . Ce remplacement des humains par des chatbots représente une inquiétude. Tout comme la Automatisation des processus robotisés (RPA), les chatbots permettent de diminuer les tâches répétitives pour laisser uniquement des tâches à réelle valeur ajoutée à réaliser. Ces tâches répétitives engendraient cependant de l'emploi qui risquerait d'être
+          19 supprimé 	 - pour être remplacé par d'autres types d'emplois (data scientist, UI designer, directeur social et 20,21 chatbots, etc.)	.
+Selon une enquête réalisée auprès de 2041 consommateurs français, 59 % des répondants apprécient de pouvoir poser leurs questions à un chatbot mais 67 %  préférèrent cependant être mis en relation avec un
+                                                                  22 conseiller lorsqu'il s'agit de résoudre une problématique complexe	.
+Les chatbots alimentés par l'intelligence artificielle
+
+L'une des plus récentes technologie utilisée dans l'industrie du tourisme c'est l'intelligence artificielle qui consiste à proposer un service et une expérience client en ligne. Même si l'alimentation des chatbots de
+                                                           23 l'intelligence artificielle est un investissement onéreux, on constate que les entreprises qui opèrent dans le secteur touristique adoptent de plus en plus cette technologie.
+Les chatbots fonctionnent 24h/24 et 7j/7, Ce qui leur permet d'apporter des réponses en temps réel aux questions des visiteurs des sites Web. Grâce à la pratique de l'Intelligence Artificielle, les chatbots vont
+                                                           24 fortement évoluer afin de répondre à des questions plus complexes et plus humaine	.
+Selon une étude du français Botnation.ai réalisée sur 1 900 professionnels, il est impératif d'entrainer longuement l'IA de son chatbot car 84 % des utilisateurs considèrent encore l'incompréhension des
+                                                           25 questions posées aux chatbots comme le frein n°1 à l'adoption de ceux-ci alors 75 % apprécient tout de même de ne pas avoir à attendre qu'un conseiller humain soit disponible. Il faut donc investir du temps dans l'apprentissage d'un IA personnalisée. Lorsque l'analyse big data l'IA pourra identifier rapidement des
+                                                           26 comportements spécifiques	, son usage se développera.
+À l'automne 2022, OpenAI a lancé son chatbot ChatGPT, basé sur le modèle GPT-3 de l'entreprise. ChatGPT est l'un des chatbots les plus avancés actuellement (au début de 2023) disponibles et est considéré comme une étape importante dans le développement de l'IA conversationnelle. Le modèle a été entraîné sur d'énormes quantités de conversations humaines et peut donc communiquer avec les utilisateurs de manière naturelle et humaine. ChatGPT est souvent utilisé à des fins de service client et est capable de répondre à des questions sur une large gamme de sujets. Le ChatGPT officiel n'était souvent pas disponible en raison
+                                                           27 de la forte demande, ce qui a rendu populaires les applications de chat utilisant l'API officielle d'OpenAI.
+28
+Peu de temps après, Writesonic	 a également lancé son chatbot ChatSonic (https://writesonic.com/chat).
+Cet outil utilise l'intelligence artificielle pour interagir avec les utilisateurs de manière conversationnelle et leur fournir des réponses instantanées à leurs questions. Le chatbot utilise également des algorithmes avancés pour comprendre les intentions de l'utilisateur et fournir des réponses personnalisées en conséquence. ChatSonic est conçu pour être facile à utiliser et accessible à tous, ce qui le rend particulièrement utile pour les petites entreprises et les entrepreneurs qui cherchent à améliorer leur présence en ligne sans avoir à engager un expert en marketing.
+Utilisation internationale
+
+En 2019, les chatbots sont principalement utilisés en Chine pour les paiements et achats en ligne, et le
+                                                           9 réseau social Wechat en est l'applicable la plus significative .
+En Chine, les chatbots BabyQ et Xiaobing du groupe Tencent ont contraint la censure à s'adapter. La chatbot BabyQ répondait " non " lorsqu'on lui demandait s'il aimait le Parti Communiste Chinois. Ces
+                                      29 chatbots ont été rapidement supprimés	.
+Cas spécifiques de l'informatique décisionnelle et des mégadonnées
+
+L'informatique décisionnelle ou en anglais Business Intelligence est une branche de l'informatique qui
+                                                      30 consiste à l'analyse de données en entreprise . L'arrivée de chatbot dans ces deux domaines de compétences permet désormais aux non-informaticiens
+                                                      31 d'interroger des grands volumes de données en langage naturel sans se soucier de la technicité .
+Applications médicales
+
+En 2015, une équipe de l'Université de Bordeaux développe un agent conversationnel animé capable de poser des questions pertinentes à un patient dans le but de diagnostiquer une somnolence diurne 32 excessive .
+Tess est un chatbot en santé mentale créé par Michel Rauws, fondateur de X2 AI, une startup du secteur de l'intelligence artificielle basée dans la Silicon Valley. Tess est formé spécifiquement pour aider les soignants, la principale valeur de Tess est l'accessibilité. En 2018, le chatbot Tess est utilisé au Canada par
+33
+Saint Elizabeth Health Care qui fournit principalement des soins de santé aux personnes à domicile
+Fictions philosophiques
+
+Le philosophe Pascal Chabot a élaboré une courte fiction mettant en scène un chatbot auquel un groupe de programmeurs " apprennent " la philosophie. Ce chatbot est auditionné par un jury de 5 philosophes professionnels qui dialoguent avec la machine pour évaluer s'il peut ou non être qualifié de " philosophe ". À cette occasion, les relations personnes-machines, le mimétisme, la reconnaissance et les modifications sociales engendrées par la construction de ces intelligences artificielles sont abordés. Voir ChatBot le robot.
+                                                              34 Drame philosophique en 5 questions et 6 actes (PUF, 2015)	.
+Le philosophe Vincent Cespedes, lui, imagine le dialogue entre un chatbot du futur (Imlac) capable de dépasser l'intelligence humaine dans tous les domaines, et sa créatrice, Alice Moreau. Il interroge : " Imlac doit-il être traité comme une chose dont nous sommes propriétaires, comme une personne morale assujettie (esclave), ou comme une personne morale libre (bien que non humaine) ? ". L'émotion y est décrite comme la marque spécifiquement humaine, qui peut être singée par des IA " émomimétiques ", mais non connectée à un corps, ce qui augmenterait le " flou " de la connaissance engendrée. " Sans émotions, pas de raisons à la raison ". L'auteur fait de l'" intelligence connective ", ou " Inex ", la clé pour composer avec la machine
+                                                              35 sans se départir de notre humanité. Voir Le Monde est flou. L'avenir des intelligences (Plon, 2021) .
+Pièges
+
+Voici quelques pièges (souvent faciles à déjouer) grâce auxquels le jury peut deviner si le candidat est un chatbot ou non , conformément au test de Turing :
+ demander combien fait 7×410/4,3 : si le candidat répond trop vite, il ne fera aucun doute qu'il est un chatbot. Mais la plupart des chatbots simulent justement des temps de réflexion variables ;
+tenter de provoquer une réaction en déclarant quelque chose d'incroyable, bien que la réponse évidente soit : Pourquoi changez-vous brusquement de sujet ?
+ demander (par exemple) ce qui d'un avion à réaction ou de l'index de l'utilisateur est le plus gros. Un chatbot ne réussira pas à répondre alors que c'est évident pour un candidat humain ;  faire appel à de la perception visuelle, par exemple " Si je retourne la lettre W, quelle autre lettre obtiens-je ? " ;
+ donner une information dans une phrase, puis rendre cette information indispensable dans la phrase suivante, car les logiciels de conversation n'ont généralement pas d'apprentissage.
+Bonnes pratiques
+
+                                                             36 De nombreuses bonnes pratiques se retrouvent pour le développement de chatbots	 :
+avoir une bonne connaissance des différentes notions (intentions, entités...) et des possibilités ;
+                                                             37 utiliser les outils méthodologiques tel que le Chatbot Design Canvas	 ; proposer une expérience relationnelle, avec une réelle personnalisation des réponses ; définir des KPIs dès la conception, pour permettre de connaître les performances et
+                                                             38 améliorer son chatbot - avec des outils tels que Chatbase	.
+Si le but n'est pas seulement d'avoir un robot conversationnel mais aussi de pouvoir leurrer le jury, différentes techniques existent. En voici quelques-unes :
+essayer de simuler un suivi de conversation ; être très imprévisible ; éviter les questions incomprises : par exemple, en répondant " patientez quelques instants, il y a quelqu'un à la porte ".
+Notes et références
+
+1. " chatbot " (https://www.larousse.fr/dictionnaires/francais/chatbot), dictionnaire Larousse (consulté le 19 septembre 2021).
+2. https://dictionnaire.lerobert.com/definition/chatbot
+3. Commission d'enrichissement de la langue française, " dialogueur " (http://www.culture.fr/fra nceterme/terme/INFO947), FranceTerme, Ministère de la Culture (consulté le 19 septembre 2021).
+4. " agent conversationnel " (https://vitrinelinguistique.oqlf.gouv.qc.ca/redirection/ficheuid/2654 5036), Le Grand Dictionnaire terminologique, Office québécois de la langue française (consulté le 19 septembre 2021).
+5. (en) " Chatbot Tutorial " (http://www.codeproject.com/Articles/36106/Chatbot-Tutorial), 14 avril 2014 (consulté le 10 janvier 2015)
+6. (en) " Eliza Chatbot " (http://nlp-addiction.com/chatbot/eliza) , sur nlp-addiction.com (consulté le 10 janvier 2015)
+7. François Parmentier, ector, 27 décembre 2022 (lire en ligne (https://github.com/parmentf/nod e-ector))
+8. " A peine lancée, une intelligence artificielle de Microsoft dérape sur Twitter ", Le Monde.fr, 24 mars 2016 (lire en ligne (https://www.lemonde.fr/pixels/article/2016/03/24/a-peine-lanceeune-intelligence-artificielle-de-microsoft-derape-sur-twitter_4889661_4408996.html), consulté le 14 mars 2023)
+9. " Chatbot, enfin l'âge adulte ? " (http://questionsdetransformation.ey.com/dossiers/chatbot-e nfin-l-age-adulte_f-59.html), sur questionsdetransformation.ey.com (consulté le 4 mai 2019)
+10. Article sur Eco89, http://eco.rue89.com/2008/12/01/e-commerce-des-androides-au-servicedes-clients.
+11. " Mais à quoi servent donc les chatbots ? " (https://www.challenges.fr/tribunes/mais-a-quoi-s ervent-donc-les-chatbots_451733), sur Challenges, 1er février 2017.
+12. " Qu'est-ce qu'un chatbot ? - ChatbotCanada.com ", ChatbotCanada.com, 6 novembre 2017 (lire en ligne (http://chatbotcanada.com/quest-ce-quun-chatbot/), consulté le 8 novembre 2017).
+13. Thomas Horst, Digitick lance son chatbot (http://www.strategies.fr/actualites/marques/105343 3W/digitick-lance-son-chatbot.html), Strategies.fr, 9 décembre 2016 (consulté le 16 mai 2017).
+14. (en) " How a Bot is Resolving 84% of Support Requests " (https://www.mindsay.com/custom ers/ratp), sur Mindsay (consulté le 4 novembre 2021).
+15. " Chatbot Messenger, robot Pepper : la RATP teste de nouvelles interfaces " (https://www.us ine-digitale.fr/article/chatbot-messenger-robot-pepper-la-ratp-teste-de-nouvelles-interfaces.N 623583), sur usine-digitale.fr (consulté le 28 août 2020).
+16. " Améliorer la relation client avec un agent virtuel intelligent " (https://www.citizencall.fr/ameli orer-relation-client-agent-virtuel-intelligent/).
+17. " Entendez-vous ces bruits de bots ? Une réflexion sur la robomorphisation du web et de l'emploi par les chatbots " (https://maisouvaleweb.fr/chatbots-bots-web-emploi/), sur maisouvaleweb.fr (consulté le 26 octobre 2016).
+18. Maryse Gros, " L'arrivée de Watson au Crédit Mutuel suscite des inquiétudes pour l'emploi " (https://www.lemondeinformatique.fr/actualites/lire-l-arrivee-de-watson-au-credit-mutuel-susci te-des-inquietudes-pour-l-emploi-64399.html), sur Le Monde Informatique (consulté le 6 mars 2019).
+19. " Banque Casino : un chatbot qui réalise le travail de 3 personnes du service client ", La Revue du Digital, 18 octobre 2018.
+20. " Ces nouveaux métiers issus des bots - L'Atelier BNP Paribas ", L'Atelier BNP Paribas, 20 décembre 2017 (lire en ligne (https://atelier.bnpparibas/life-work/article/metiers-issus-bot s), consulté le 6 mars 2019).
+21. (en-US) " Why chatbots may hold the future of tech jobs in their (nonexistent) hands " (https:// www.monster.com/career-advice/article/chatbots-future-jobs-0916), sur Monster Career Advice (consulté le 6 mars 2019).
+22. IT for Business, " Saperlipopette ! Les chatbots ont la cote ! " (https://www.itforbusiness.fr/sa perlipopette-les-chatbots-ont-la-cote-43237), sur IT for Business, 4 mai 2021 (consulté le 5 mai 2021).
+23. https://www.abime-concept.com/blog/2022/02/28/tendances-et-innovations-du-e-tourisme2022/
+24. https://www.abime-concept.com/blog/2018/03/13/les-bonnes-pratiques-de-l-ia-intelligence-
+artificielle/
+25. Laurent Delattre, " Saperlipopette ! Les chatbots ont la cote ! " (https://www.itforbusiness.fr/s aperlipopette-les-chatbots-ont-la-cote-43237), sur IT for Business, 4 mai 2021 (consulté le 16 août 2022)
+26. Sarah Martineau et CEO, " Les Chatbots : 5 leviers puissants de marketing stratégique " (htt ps://www.cadre-dirigeant-magazine.com/reussir-en-entreprise/chatbot-5-leviers-marketing-str ategiques/), sur Cadre & Dirigeant Magazine, 15 septembre 2021 (consulté le 16 août 2022)
+27. " ChatGPT en Français - Chat GPT en Ligne " (https://chat-gpt.com/fr), sur ChatGPT en Français - Chat GPT en Ligne (consulté le 3 mars 2023)
+28. IApassion, " Writesonic Avis, Le Meilleur Logiciel de Rédaction par IA - Prix & Fonctionnalités " (https://iapassion.com/writesonic/), sur IApassion (consulté le 13 mars 2023)
+29. Kai Strittmatter, Dictature 2.0: Quand la Chine surveille son peuple (et demain le monde), Tallandier, 27 août 2020 (ISBN 979-10-210-4319-0, lire en ligne (https://books.google.ch/boo ks/about/Dictature_2_0.html?id=DvT0DwAAQBAJ)), p. 104.
+30. " Informatique décisionnelle " (https://www.definitions-marketing.com/definition/informatiquedecisionnelle/), sur Définitions Marketing (consulté le 28 août 2020).
+31. (en) " Chatbots Will be the Next Evolutionary Step in Business Analytics " (http://www.datav ersity.net/chatbots-will-next-evolutionary-step-business-analytics/), sur Dataversity, 10 avril 2017 (consulté le 28 août 2020).
+32. " L'E-médecine, antidote à la pénurie médicale? " (https://lejournal.cnrs.fr/articles/le-medeci ne-antidote-a-la-penurie-medicale), sur CNRS Le journal (consulté le 13 février 2019)
+33. (en-GB) Kylie Gionet, " Meet Tess: the mental health chatbot that thinks like a therapist ", The
+Guardian, 25 avril 2018 (ISSN 0261-3077 (https://www.worldcat.org/issn/0261-3077&lang=f
+r), lire en ligne (https://www.theguardian.com/society/2018/apr/25/meet-tess-the-mental-healt h-chatbot-that-thinks-like-a-therapist), consulté le 13 février 2019)
+34. Pascal Chabot, ChatBot le robot : drame philosophique en quatre questions et cinq actes, Paris, PUF, 2015, 70 p. (ISBN 978-2-13-073505-2)
+35. Vincent Cespedes, Le Monde est flou : L'avenir des intelligences, Paris, Plon, 2021, 256 p. (ISBN 9=782259-280679[à vérifier : ISBN invalide])
+36. " Comment réussir son agent conversationnel ? " (https://www.nexworld.fr/reussir-agent-con versationnel/), sur Nexworld, 24 avril 2018 (consulté le 4 mars 2019)
+37. Srini Janarthanam, " Chatbot Design Canvas " (https://chatbotslife.com/chatbot-design-canv as-c3940685ca2c), sur Chatbots Life, 5 juin 2017 (consulté le 4 mars 2019)
+38. (en) " Build software better, together " (https://github.com/), sur GitHub (consulté le 31 décembre 2022)
+Voir aussi
+
+Articles connexes
+
+Liens externes
+Notices dans des dictionnaires ou encyclopédies généralistes : Britannica (https://www.britannica.com/topic/Chatterbots) ·
+Nationalencyklopedin (https://www.ne.se/uppslagsverk/encyklopedi/lång/chatbot)
+" Chatbot : parle à ma fenêtre " (https://www.franceculture.fr/emissions/la-methode-scientif ique/les-chatbots), La Méthode scientifique, France Culture, 4 mai 2022.
+Emmanuel Beillaud, " Pas de Chatbot sans Intelligence Artificielle et Machine Learning ! (https://www.nexworld.fr/chatbot-intelligence-artificielle/) ", Onepoint x Nexworld, 28 juillet 2017.
+Jean-Baptiste Berthelin, " Dialogueurs artificiels : précurseurs ou illusoires ? (https://pers o.limsi.fr/jbb/dapi.html) ", bulletin de l'AFIA, no 46-47, novembre 2001.
+Ce document provient de " https://fr.wikipedia.org/w/index.php?title=Chatbot&oldid=202284747 ".
